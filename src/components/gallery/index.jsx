@@ -1,5 +1,6 @@
-import { Image } from "./image";
 import React from "react";
+import { Image } from "./Image";
+import "./gallery.css";
 
 export const Gallery = (props) => {
   return (

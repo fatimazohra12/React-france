@@ -1,9 +1,15 @@
 import React from "react";
+import "./header.css";
 
 export const Header = (props) => {
   return (
     <header id="header">
-      <div className="intro">
+      <div
+        className="intro"
+        style={{
+          backgroundImage: `url(${process.env.PUBLIC_URL}/img/intro-bg.jpg)`,
+        }}
+      >
         <div className="overlay">
           <div className="container">
             <div className="row">
@@ -18,7 +24,7 @@ export const Header = (props) => {
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Learn More
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>

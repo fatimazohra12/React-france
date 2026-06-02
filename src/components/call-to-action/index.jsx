@@ -14,13 +14,13 @@ export function CallToAction() {
               </h2>
               <p className="wow fadeInUp">
                 Don't wait any longer to bring your construction dreams to life.
-                Partner with Builtup and experience unparalleled service and
+                Partner with Valmétaux and experience unparalleled service and
                 quality.
               </p>
             </div>
             <div className="section-btn wow fadeInUp" data-wow-delay="0.25s">
               <a className="btn-default btn-large" href="#contact">
-                get free quote
+              Obtenir un devis gratuit
               </a>
             </div>
           </div>

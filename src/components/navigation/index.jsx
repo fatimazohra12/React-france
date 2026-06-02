@@ -10,7 +10,7 @@ export function Navigation() {
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
             <a className="navbar-brand" href="#home">
-              <img src={asset("logo.svg")} alt="Logo" />
+              <img className="navbar-logo" src={asset("valmetaux-logo.png")} alt="Valmétaux" />
             </a>
             <div className="collapse navbar-collapse main-menu">
               <div className="nav-menu-wrapper">
@@ -29,7 +29,7 @@ export function Navigation() {
               </div>
               <div className="header-btn d-inline-flex">
                 <a className="btn-default" href="#contact">
-                  Contact Us
+                  Contactez-nous
                 </a>
               </div>
             </div>

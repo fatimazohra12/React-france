@@ -11,8 +11,7 @@ export function Faqs() {
         <div className="row section-row">
           <div className="col-lg-12">
             <SectionTitle eyebrow="faqs" title="Got questions? we've got answers">
-              We specialize in a wide range of construction services, including
-              residential, commercial, and industrial projects.
+            Chez Valmetaux, nous proposons une gamme complète de services de construction pour répondre à tous vos besoins, des projets résidentiels aux infrastructures industrielles. Notre équipe d’experts s’engage à fournir des solutions sur mesure, durables et de haute qualité.
             </SectionTitle>
           </div>
         </div>
@@ -74,8 +73,7 @@ export function Faqs() {
                   >
                     <div className="accordion-body">
                       <p>
-                        Our post-construction services gives you peace of mind
-                        knowing that we are still here for you even after.
+                      "Transformer les déchets en opportunités, pour une planète plus propre et une économie plus forte."
                       </p>
                     </div>
                   </div>

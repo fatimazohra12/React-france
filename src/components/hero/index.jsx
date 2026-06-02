@@ -15,22 +15,21 @@ export function Hero() {
           <div className="col-lg-12">
             <div className="hero-content">
               <div className="section-title">
-                <h3 className="wow fadeInUp">welcome to builtup</h3>
+                <h3 className="wow fadeInUp">welcome to Valmétaux</h3>
                 <h1 className="text-anime-style-3" data-cursor="-opaque">
-                  Building dreams with precision and excellence
+                  Achat vente des métaux 
+                  Valorisez vos déchets
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay="0.25s">
-                  we specialize in turning visions into reality with exceptional
-                  craftsmanship and meticulous attention to detail. With years
-                  of experience and a commitment to quality.
+                Achat fer et métaux pose de penne
                 </p>
               </div>
               <div className="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
                 <a className="btn-default" href="#about">
-                  get started
+                Démarrer
                 </a>
                 <a className="btn-default btn-highlighted" href="#projects">
-                  view Projects
+                voir les projets
                 </a>
               </div>
             </div>

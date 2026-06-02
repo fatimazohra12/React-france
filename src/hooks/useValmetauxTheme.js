@@ -19,7 +19,7 @@ const themeScripts = [
   "/builtup/js/function.js",
 ];
 
-export function useBuiltupTheme() {
+export function useValmetauxTheme() {
   useEffect(() => {
     let cancelled = false;
     const loadedScripts = [];

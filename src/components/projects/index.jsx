@@ -31,8 +31,7 @@ export function Projects() {
                     </div>
                     <div className="project-content">
                       <p>
-                        Our post-construction services gives you peace of mind
-                        knowing that we are still here for you even after.
+                      "Transformer les déchets en opportunités, pour une planète plus propre et une économie plus forte."
                       </p>
                       <div className="project-content-footer">
                         <a className="readmore-btn" href="#projects">

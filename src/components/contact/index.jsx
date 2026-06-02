@@ -15,8 +15,8 @@ export function Contact() {
                   <img src={asset("icon-phone.svg")} alt="" />
                 </div>
                 <div className="contact-info-content">
-                  <p>call support center 24/7</p>
-                  <h3>+1 809 120 6705</h3>
+                  <p>Centre de support client 24/7</p>
+                  <h3>+33 1 41 40 01 01</h3>
                 </div>
               </div>
               <div className="contact-info">
@@ -24,8 +24,8 @@ export function Contact() {
                   <img src={asset("icon-mail.svg")} alt="" />
                 </div>
                 <div className="contact-info-content">
-                  <p>write to us</p>
-                  <h3>info@domain.com</h3>
+                  <p>Écrivez-nous</p>
+                  <h3>valmetaux@gmail.com</h3>
                 </div>
               </div>
               <div className="contact-info-image">
@@ -37,7 +37,7 @@ export function Contact() {
           </div>
           <div className="col-lg-8 col-md-7">
             <div className="contact-form wow fadeInUp" data-wow-delay="0.25s">
-              <SectionTitle eyebrow="contact us" title="Get in touch with us" />
+              <SectionTitle eyebrow="contactez-nous" title="Prenez contact avec nous" />
               <form action="#" data-toggle="validator" id="contactForm" method="POST">
                 <div className="row">
                   <div className="form-group col-md-6 mb-4">
@@ -45,7 +45,7 @@ export function Contact() {
                       className="form-control"
                       id="name"
                       name="name"
-                      placeholder="Enter Your name"
+                      placeholder="Votre nom"
                       required
                       type="text"
                     />
@@ -56,7 +56,7 @@ export function Contact() {
                       className="form-control"
                       id="email"
                       name="email"
-                      placeholder="Enter Your email"
+                      placeholder="Saisissez votre e-mail"
                       required
                       type="email"
                     />
@@ -67,7 +67,7 @@ export function Contact() {
                       className="form-control"
                       id="phone"
                       name="phone"
-                      placeholder="Phone number"
+                      placeholder="Saisissez votre numéro de téléphone"
                       required
                       type="text"
                     />
@@ -78,7 +78,7 @@ export function Contact() {
                       className="form-control"
                       id="website"
                       name="website"
-                      placeholder="Subject"
+                      placeholder="Sujet de votre message"
                       required
                       type="text"
                     />

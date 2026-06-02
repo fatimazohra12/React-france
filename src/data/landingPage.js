@@ -1,12 +1,12 @@
 export const navItems = [
-  { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
+  { label: "Accueil", href: "#home" },
+  { label: "À propos", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Projects", href: "#projects" },
-  { label: "Testimonials", href: "#testimonials" },
+  { label: "Projets", href: "#projects" },
+  { label: "Témoignages", href: "#testimonials" },
   { label: "FAQ", href: "#faqs" },
   { label: "Blog", href: "#blog" },
-  { label: "Contact Us", href: "#contact", highlighted: true },
+  { label: "Contact", href: "#contact", highlighted: true },
 ];
 
 export const services = [

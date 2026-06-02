@@ -11,12 +11,12 @@ import { Preloader } from "../preloader";
 import { Projects } from "../projects";
 import { Services } from "../services";
 import { Testimonials } from "../testimonials";
-import { useBuiltupTheme } from "../../hooks/useBuiltupTheme";
+import { useValmetauxTheme } from "../../hooks/useValmetauxTheme";
 import { WhyChooseUs } from "../why-choose-us";
 import "./landing-page.css";
 
-export function BuiltupPage() {
-  useBuiltupTheme();
+export function ValmetauxPage() {
+  useValmetauxTheme();
 
   return (
     <div className="landing-page">

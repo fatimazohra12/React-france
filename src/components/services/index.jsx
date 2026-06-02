@@ -11,9 +11,8 @@ export function Services() {
         <div className="container-fluid">
           <div className="row section-row">
             <div className="col-lg-12">
-              <SectionTitle eyebrow="our services" title="Our construction services">
-                We specialize in a wide range of construction services,
-                including residential, commercial, and industrial projects.
+              <SectionTitle eyebrow="Nos services" title="Nos prestations de construction">
+              Chez Valmetaux, nous proposons une gamme complète de services de construction pour répondre à tous vos besoins, des projets résidentiels aux infrastructures industrielles. Notre équipe d’experts s’engage à fournir des solutions sur mesure, durables et de haute qualité.
               </SectionTitle>
             </div>
           </div>
@@ -28,24 +27,23 @@ export function Services() {
                     </div>
                     <div className="service-content">
                       <p>
-                        Our post-construction services gives you peace of mind
-                        knowing that we are still here for you even after.
+                      "Transformer les déchets en opportunités, pour une planète plus propre et une économie plus forte."
                       </p>
-                      <div className="service-content-footer">
+                      {/* <div className="service-content-footer">
                         <a className="readmore-btn" href="#projects">
                           view more
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
               </div>
             ))}
-            <div className="service-footer-btn wow fadeInUp" data-wow-delay="1.25s">
+            {/* <div className="service-footer-btn wow fadeInUp" data-wow-delay="1.25s">
               <a className="btn-default" href="#services">
                 view all services
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

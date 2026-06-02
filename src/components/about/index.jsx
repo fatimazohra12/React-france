@@ -20,25 +20,22 @@ export function About() {
           <div className="col-lg-7">
             <div className="about-content">
               <SectionTitle
-                eyebrow="about us"
-                title="Crafting structures that last a lifetime"
+                eyebrow="À propos de nous"
+                title="Qui sommes-nous ?"
               >
-                Crafting structures that last a lifetime requires a holistic
-                approach that integrates advanced materials, resilient design,
-                regular maintenance, and sustainability practices. By learning
-                from historical examples and leveraging modern technology.
+                Chez Valmetaux, nous sommes passionnés par la valorisation des déchets métalliques et engagés dans une économie circulaire durable. Depuis [année de création], nous transformons les métaux usagés en ressources précieuses, réduisant ainsi l’impact environnemental tout en offrant des solutions économiques à nos partenaires.
               </SectionTitle>
               <div className="about-content-body wow fadeInUp" data-wow-delay="0.5s">
                 <ul>
-                  <li>Comprehensive Services</li>
-                  <li>Advanced Technology</li>
-                  <li>Transparent Communication</li>
+                  <li>Achat et vente de métaux (fer, aluminium, acier, etc.)</li>
+                  <li>Collecte et recyclage pour les particuliers et professionnels</li>
+                  <li> Valorisation des déchets avec des méthodes écoresponsables</li>
                 </ul>
               </div>
               <div className="about-content-footer wow fadeInUp" data-wow-delay="0.75s">
                 <div className="about-footer-btn">
                   <a className="btn-default" href="#contact">
-                    get free quote
+                  Obtenir un devis gratuit
                   </a>
                 </div>
                 <div className="about-contact-support">
@@ -46,8 +43,8 @@ export function About() {
                     <img src={asset("icon-phone.svg")} alt="" />
                   </div>
                   <div className="about-support-content">
-                    <p>call support center 24X7</p>
-                    <h3>+1 809 120 6705</h3>
+                    <p>Centre de support client 24X7</p>
+                    <h3>+33 1 41 40 01 01</h3>
                   </div>
                 </div>
               </div>

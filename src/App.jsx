@@ -1,6 +1,6 @@
 import React from "react";
 import SmoothScroll from "smooth-scroll";
-import { BuiltupPage } from "./components/landing-page";
+import { ValmetauxPage } from "./components/landing-page";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -8,6 +8,6 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   offset: 90,
 });
 
-const App = () => <BuiltupPage />;
+const App = () => <ValmetauxPage />;
 
 export default App;

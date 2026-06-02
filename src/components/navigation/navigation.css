@@ -1,1 +1,10 @@
-/* Component-specific styles for navigation. */
+.navbar-logo {
+  max-height: 64px;
+  width: auto;
+}
+
+@media (max-width: 991px) {
+  .navbar-logo {
+    max-height: 52px;
+  }
+}

@@ -11,8 +11,7 @@ export function Blog() {
         <div className="row section-row">
           <div className="col-lg-12">
             <SectionTitle eyebrow="news & blog" title="Articles & blog posts">
-              We specialize in a wide range of construction services, including
-              residential, commercial, and industrial projects.
+            Chez Valmetaux, nous proposons une gamme complète de services de construction pour répondre à tous vos besoins, des projets résidentiels aux infrastructures industrielles. Notre équipe d’experts s’engage à fournir des solutions sur mesure, durables et de haute qualité.
             </SectionTitle>
           </div>
         </div>

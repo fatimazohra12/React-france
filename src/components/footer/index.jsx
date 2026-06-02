@@ -13,20 +13,19 @@ export function Footer() {
             <div className="about-footer">
               <div className="footer-logo">
                 <figure>
-                  <img src={asset("footer-logo.svg")} alt="" />
+                  <img src={asset("valmetaux-logo.png")} alt="Valmétaux" />
                 </figure>
               </div>
               <div className="footer-content">
                 <p>
-                  Our post-construction services gives you peace of mind knowing
-                  that we are still here for you even after.
+                "Transformer les déchets en opportunités, pour une planète plus propre et une économie plus forte."
                 </p>
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 col-12">
             <div className="footer-links">
-              <h3>our services</h3>
+              <h3>Nos services</h3>
               <ul>
                 {footerServices.map((service) => (
                   <li key={service}>
@@ -50,11 +49,11 @@ export function Footer() {
           </div>
           <div className="col-lg-3 col-md-4 col-12">
             <div className="footer-links footer-contact-box">
-              <h3>contact us</h3>
-              <FooterInfo icon="icon-phone.svg">+1 809 120 6705</FooterInfo>
-              <FooterInfo icon="icon-mail.svg">info@domain.com</FooterInfo>
+              <h3>contactez-nous</h3>
+              <FooterInfo icon="icon-phone.svg">+33 1 41 40 01 01</FooterInfo>
+              <FooterInfo icon="icon-mail.svg">valmetaux@gmail.com</FooterInfo>
               <FooterInfo icon="icon-location.svg">
-                37 San Juan Lane Graaf Florisstraat 22A,3021 CH
+              5 rue de l’Ouest, 95100 Argenteuil
               </FooterInfo>
             </div>
           </div>
@@ -63,7 +62,7 @@ export function Footer() {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-7">
               <div className="footer-copyright-text">
-                <p>Copyright © 2024 BuiltUp. All Rights Reserved.</p>
+                <p>Copyright © 2026 Valmétaux. All Rights Reserved.</p>
               </div>
             </div>
             <div className="col-lg-6 col-md-5">

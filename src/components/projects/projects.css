@@ -1,1 +1,9 @@
-/* Component-specific styles for projects. */
+.project-image img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transform: none;
+}
+
+.project-item:hover .project-image img {
+  transform: none;
+}

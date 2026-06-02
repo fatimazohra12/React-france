@@ -2,7 +2,7 @@ export const navItems = [
   { label: "Accueil", href: "#home" },
   { label: "À propos", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Projets", href: "#projects" },
+  { label: "Prestations", href: "#projects" },
   { label: "Témoignages", href: "#testimonials" },
   { label: "FAQ", href: "#faqs" },
   { label: "Blog", href: "#blog" },
@@ -49,10 +49,12 @@ export const reasons = [
 ];
 
 export const projects = [
-  { title: "aspen heights", image: "our-project-1.jpg", delay: "0.25s" },
-  { title: "forest hill towers", image: "our-project-2.jpg", delay: "0.5s" },
-  { title: "bayside residences", image: "our-project-3.jpg", delay: "0.75s" },
-  { title: "parkview plaza", image: "our-project-4.jpg", delay: "1s" },
+  { title: "Câbles électriques", image: "prestation-cables-electriques.png", delay: "0.25s" },
+  { title: "Câbles industriels", image: "prestation-cables-industriels.png", delay: "0.5s" },
+  { title: "Batteries usagées", image: "prestation-batteries.png", delay: "0.75s" },
+  { title: "Fils et câbles mélangés", image: "prestation-fils-melanges.png", delay: "1s" },
+  { title: "Cuivre", image: "prestation-cuivre.png", delay: "1.25s" },
+  { title: "Câbles colorés", image: "prestation-cables-colores.png", delay: "1.5s" },
 ];
 
 export const testimonials = [

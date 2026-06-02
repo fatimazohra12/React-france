@@ -12,17 +12,15 @@ export function Projects() {
           <div className="row section-row">
             <div className="col-lg-12">
               <SectionTitle
-                eyebrow="our projects"
-                title="Explore our diverse range of projects"
+                eyebrow="Nos prestations"
               >
-                We specialize in a wide range of construction services,
-                including residential, commercial, and industrial projects.
+                Nous récupérons, rachetons et recyclons des ferrailles, des métaux non ferreux et des métaux spéciaux.
               </SectionTitle>
             </div>
           </div>
           <div className="row">
             {projects.map((project) => (
-              <div className="col-lg-3 col-md-6" key={project.title}>
+              <div className="col-lg-4 col-md-6" key={project.title}>
                 <div className="project-item wow fadeInUp" data-wow-delay={project.delay}>
                   <CardImage image={project.image} type="project" />
                   <div className="project-body">
@@ -30,14 +28,14 @@ export function Projects() {
                       <h3>{project.title}</h3>
                     </div>
                     <div className="project-content">
-                      <p>
+                      {/* <p>
                       "Transformer les déchets en opportunités, pour une planète plus propre et une économie plus forte."
-                      </p>
-                      <div className="project-content-footer">
+                      </p> */}
+                      {/* <div className="project-content-footer">
                         <a className="readmore-btn" href="#projects">
                           view more
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

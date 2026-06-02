@@ -16,7 +16,7 @@
 #team .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: var(--color-yellow);
   height: 4px;
   width: 60px;
   bottom: 0;

@@ -1,7 +1,7 @@
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  background: var(--color-black);
+  color: var(--color-gray-light);
 }
 
 #services .section-title {
@@ -19,7 +19,7 @@
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: var(--color-yellow);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -40,9 +40,9 @@
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: var(--color-yellow);
   border-radius: 50%;
-  color: #fff;
+  color: var(--color-black);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 

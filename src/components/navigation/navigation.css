@@ -11,11 +11,11 @@
 
 .modern-nav--scrolled {
   padding: 0.65rem 0;
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid var(--color-gray-light);
 }
 
 .modern-nav__container {
@@ -34,33 +34,33 @@
   align-items: center;
   gap: 0.65rem;
   font-family: "Raleway", sans-serif;
-  font-size: 1.35rem;
+  font-size: 16px;
   font-weight: 700;
-  color: #1a1a2e;
+  color: var(--color-black);
   text-decoration: none;
   letter-spacing: -0.02em;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease, color 0.2s ease;
 }
 
 .modern-nav__brand:hover,
 .modern-nav__brand:focus {
-  color: #1a1a2e;
+  color: var(--color-yellow-dark);
   text-decoration: none;
-  opacity: 0.85;
+  opacity: 1;
 }
 
 .modern-nav__brand-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 10px;
-  background: linear-gradient(135deg, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
-  font-size: 1rem;
+  background: var(--color-yellow);
+  color: var(--color-black);
+  font-size: 1.15rem;
   font-weight: 800;
-  box-shadow: 0 4px 14px rgba(99, 114, 255, 0.35);
+  box-shadow: 0 4px 14px rgba(245, 197, 24, 0.35);
 }
 
 .modern-nav__menu {
@@ -81,11 +81,11 @@
 .modern-nav__link {
   position: relative;
   display: inline-block;
-  padding: 0.5rem 0.85rem;
+  padding: 0.55rem 1rem;
   font-family: "Lato", sans-serif;
-  font-size: 0.9rem;
+  font-size: 16px;
   font-weight: 500;
-  color: #4a4a68;
+  color: var(--color-gray);
   text-decoration: none;
   border-radius: 8px;
   transition: color 0.25s ease, background 0.25s ease;
@@ -93,13 +93,13 @@
 
 .modern-nav__link:hover,
 .modern-nav__link:focus {
-  color: #6372ff;
+  color: var(--color-black);
   text-decoration: none;
-  background: rgba(99, 114, 255, 0.08);
+  background: rgba(245, 197, 24, 0.15);
 }
 
 .modern-nav__link.is-active {
-  color: #6372ff;
+  color: var(--color-black);
   font-weight: 600;
 }
 
@@ -112,29 +112,30 @@
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #6372ff, #5ca9fb);
+  background: var(--color-yellow);
 }
 
 .modern-nav__cta {
   margin-left: 0.75rem;
-  padding: 0.55rem 1.25rem;
+  padding: 0.65rem 1.4rem;
   font-family: "Lato", sans-serif;
-  font-size: 0.9rem;
+  font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: var(--color-black);
   text-decoration: none;
   border-radius: 999px;
-  background: linear-gradient(135deg, #6372ff 0%, #5ca9fb 100%);
-  box-shadow: 0 4px 16px rgba(99, 114, 255, 0.35);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background: var(--color-yellow);
+  box-shadow: 0 4px 16px rgba(245, 197, 24, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
 .modern-nav__cta:hover,
 .modern-nav__cta:focus {
-  color: #fff;
+  color: var(--color-black);
   text-decoration: none;
   transform: translateY(-1px);
-  box-shadow: 0 6px 22px rgba(99, 114, 255, 0.45);
+  background: var(--color-yellow-dark);
+  box-shadow: 0 6px 22px rgba(245, 197, 24, 0.45);
 }
 
 .modern-nav__toggle {
@@ -147,13 +148,13 @@
   padding: 0;
   border: none;
   border-radius: 10px;
-  background: rgba(99, 114, 255, 0.1);
+  background: rgba(245, 197, 24, 0.15);
   cursor: pointer;
   transition: background 0.2s ease;
 }
 
 .modern-nav__toggle:hover {
-  background: rgba(99, 114, 255, 0.18);
+  background: rgba(245, 197, 24, 0.3);
 }
 
 .modern-nav__toggle span {
@@ -161,7 +162,7 @@
   width: 1.25rem;
   height: 2px;
   margin: 0 auto;
-  background: #6372ff;
+  background: var(--color-black);
   border-radius: 2px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -197,10 +198,10 @@
     align-items: stretch;
     gap: 1.5rem;
     padding: 5.5rem 1.75rem 2rem;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.98);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    box-shadow: -8px 0 40px rgba(0, 0, 0, 0.1);
+    box-shadow: -8px 0 40px rgba(0, 0, 0, 0.15);
     transform: translateX(100%);
     transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 1;
@@ -218,7 +219,7 @@
 
   .modern-nav__link {
     padding: 0.85rem 1rem;
-    font-size: 1rem;
+    font-size: 16px;
   }
 
   .modern-nav__link.is-active::after {
@@ -238,7 +239,7 @@
     position: fixed;
     inset: 0;
     border: none;
-    background: rgba(26, 26, 46, 0.4);
+    background: rgba(17, 17, 17, 0.5);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     cursor: pointer;
@@ -261,11 +262,16 @@
     color: #fff;
   }
 
+  .modern-nav:not(.modern-nav--scrolled) .modern-nav__brand:hover,
+  .modern-nav:not(.modern-nav--scrolled) .modern-nav__brand:focus {
+    color: var(--color-yellow);
+  }
+
   .modern-nav:not(.modern-nav--scrolled) .modern-nav__toggle {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(245, 197, 24, 0.25);
   }
 
   .modern-nav:not(.modern-nav--scrolled) .modern-nav__toggle span {
-    background: #fff;
+    background: var(--color-yellow);
   }
 }

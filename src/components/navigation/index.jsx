@@ -58,8 +58,8 @@ export const Navigation = () => {
           className="modern-nav__brand page-scroll"
           onClick={closeMenu}
         >
-          <span className="modern-nav__brand-icon">R</span>
-          React
+          <span className="modern-nav__brand-icon">V</span>
+          almétaux
         </a>
 
         <button

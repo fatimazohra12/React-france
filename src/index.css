@@ -1,10 +1,18 @@
+:root {
+  --color-black: #111111;
+  --color-gray: #6b6b6b;
+  --color-gray-light: #e8e8e8;
+  --color-yellow: #f5c518;
+  --color-yellow-dark: #d4a90f;
+}
+
 body,
 html {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  color: var(--color-gray);
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -21,18 +29,18 @@ h2 {
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #333;
+  color: var(--color-black);
 }
 
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #333;
+  color: var(--color-black);
 }
 
 h4 {
   font-size: 18px;
-  color: #333;
+  color: var(--color-black);
   font-weight: 600;
 }
 
@@ -47,14 +55,14 @@ p {
 }
 
 a {
-  color: #608dfd;
+  color: var(--color-yellow-dark);
   font-weight: 400;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #608dfd;
+  color: var(--color-black);
 }
 
 ul,
@@ -68,7 +76,7 @@ hr {
   width: 70px;
   text-align: center;
   position: relative;
-  background: #1e7a46;
+  background: var(--color-yellow);
   margin-bottom: 20px;
   border: 0;
 }
@@ -76,14 +84,14 @@ hr {
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  color: var(--color-black);
+  background-color: var(--color-yellow);
+  background-image: none;
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 25px;
   transition: all 0.5s linear;
   border: 0;
@@ -94,9 +102,9 @@ hr {
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-  color: #fff;
+  color: var(--color-black);
   background-image: none;
-  background-color: #6372ff;
+  background-color: var(--color-yellow-dark);
 }
 
 .btn:active,

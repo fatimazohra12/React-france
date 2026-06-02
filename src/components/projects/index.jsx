@@ -1,37 +1,40 @@
 import React from "react";
 import { CardImage } from "../card-image";
-import { services } from "../../data/landingPage";
+import { projects } from "../../data/landingPage";
 import { SectionTitle } from "../section-title";
-import "./services.css";
+import "./projects.css";
 
-export function Services() {
+export function Projects() {
   return (
-    <section className="our-service" id="services">
+    <section className="our-projects" id="projects">
       <div className="light-bg-section">
         <div className="container-fluid">
           <div className="row section-row">
             <div className="col-lg-12">
-              <SectionTitle eyebrow="our services" title="Our construction services">
+              <SectionTitle
+                eyebrow="our projects"
+                title="Explore our diverse range of projects"
+              >
                 We specialize in a wide range of construction services,
                 including residential, commercial, and industrial projects.
               </SectionTitle>
             </div>
           </div>
           <div className="row">
-            {services.map((service) => (
-              <div className="col-lg-3 col-md-6" key={service.title}>
-                <div className="service-item wow fadeInUp" data-wow-delay={service.delay}>
-                  <CardImage image={service.image} type="service" />
-                  <div className="service-body">
-                    <div className="service-body-title">
-                      <h3>{service.title}</h3>
+            {projects.map((project) => (
+              <div className="col-lg-3 col-md-6" key={project.title}>
+                <div className="project-item wow fadeInUp" data-wow-delay={project.delay}>
+                  <CardImage image={project.image} type="project" />
+                  <div className="project-body">
+                    <div className="project-body-title">
+                      <h3>{project.title}</h3>
                     </div>
-                    <div className="service-content">
+                    <div className="project-content">
                       <p>
                         Our post-construction services gives you peace of mind
                         knowing that we are still here for you even after.
                       </p>
-                      <div className="service-content-footer">
+                      <div className="project-content-footer">
                         <a className="readmore-btn" href="#projects">
                           view more
                         </a>
@@ -41,9 +44,9 @@ export function Services() {
                 </div>
               </div>
             ))}
-            <div className="service-footer-btn wow fadeInUp" data-wow-delay="1.25s">
-              <a className="btn-default" href="#services">
-                view all services
+            <div className="project-footer-btn wow fadeInUp" data-wow-delay="1.25s">
+              <a className="btn-default" href="#projects">
+                view all projects
               </a>
             </div>
           </div>

@@ -1,162 +1,112 @@
-import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
+import { SectionTitle } from "../section-title";
+import { asset } from "../../utils/assets";
 import "./contact.css";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
-
-export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-
-  const clearState = () => setState({ ...initialState });
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
-
+export function Contact() {
   return (
-    <div>
-      <div id="contact">
-        <div className="container">
-          <div className="col-md-8">
-            <div className="row">
-              <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
+    <section className="contact-us" id="contact">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-lg-4 col-md-5">
+            <div className="contact-sidebar wow fadeInUp" data-wow-delay="0.25s">
+              <div className="contact-info">
+                <div className="icon-box">
+                  <img src={asset("icon-phone.svg")} alt="" />
+                </div>
+                <div className="contact-info-content">
+                  <p>call support center 24/7</p>
+                  <h3>+1 809 120 6705</h3>
+                </div>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <div className="contact-info">
+                <div className="icon-box">
+                  <img src={asset("icon-mail.svg")} alt="" />
+                </div>
+                <div className="contact-info-content">
+                  <p>write to us</p>
+                  <h3>info@domain.com</h3>
+                </div>
+              </div>
+              <div className="contact-info-image">
+                <figure>
+                  <img src={asset("contact-info-img.png")} alt="" />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-8 col-md-7">
+            <div className="contact-form wow fadeInUp" data-wow-delay="0.25s">
+              <SectionTitle eyebrow="contact us" title="Get in touch with us" />
+              <form action="#" data-toggle="validator" id="contactForm" method="POST">
                 <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Name"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
+                  <div className="form-group col-md-6 mb-4">
+                    <input
+                      className="form-control"
+                      id="name"
+                      name="name"
+                      placeholder="Enter Your name"
+                      required
+                      type="text"
+                    />
+                    <div className="help-block with-errors" />
                   </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
+                  <div className="form-group col-md-6 mb-4">
+                    <input
+                      className="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="Enter Your email"
+                      required
+                      type="email"
+                    />
+                    <div className="help-block with-errors" />
+                  </div>
+                  <div className="form-group col-md-6 mb-4">
+                    <input
+                      className="form-control"
+                      id="phone"
+                      name="phone"
+                      placeholder="Phone number"
+                      required
+                      type="text"
+                    />
+                    <div className="help-block with-errors" />
+                  </div>
+                  <div className="form-group col-md-6 mb-4">
+                    <input
+                      className="form-control"
+                      id="website"
+                      name="website"
+                      placeholder="Subject"
+                      required
+                      type="text"
+                    />
+                    <div className="help-block with-errors" />
+                  </div>
+                  <div className="form-group col-md-12 mb-5">
+                    <textarea
+                      className="form-control"
+                      id="msg"
+                      name="msg"
+                      placeholder="Message"
+                      required
+                      rows="3"
+                    />
+                    <div className="help-block with-errors" />
+                  </div>
+                  <div className="col-md-12">
+                    <button className="btn-default" type="submit">
+                      submit
+                    </button>
+                    <div className="h3 hidden" id="msgSubmit" />
                   </div>
                 </div>
-                <div className="form-group">
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="4"
-                    placeholder="Message"
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className="help-block text-danger"></p>
-                </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
-                </button>
               </form>
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>
-                {props.data ? props.data.address : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>
-                {props.data ? props.data.phone : "loading"}
-              </p>
-            </div>
-            <div className="contact-item">
-              <p>
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>
-                {props.data ? props.data.email : "loading"}
-              </p>
-            </div>
-          </div>
-          <div className="col-md-12">
-  <div className="row">
-    <div className="social">
-      <ul>
-        <li>
-          <a href={props.data ? props.data.whatsapp : "/"}>
-            <i className="fa fa-whatsapp"></i>
-          </a>
-        </li>
-        <li>
-          <a href={props.data ? props.data.address : "/"}>
-            <i className="fa fa-map-marker"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
         </div>
       </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2026 Valmétaux. All rights reserved{" "}
-            {/* <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a> */}
-          </p>
-        </div>
-      </div>
-    </div>
+    </section>
   );
-};
+}

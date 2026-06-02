@@ -23,7 +23,15 @@ export const Header = (props) => {
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Learn More
+                  Get Started
+                </a>
+
+                <a
+                  href="#features"
+                  className="btn btn-custom btn-lg page-scroll"
+                  style={{ marginLeft: "15px" }}
+                >
+                  View projects
                 </a>
               </div>
             </div>

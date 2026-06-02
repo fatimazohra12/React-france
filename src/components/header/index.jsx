@@ -19,20 +19,20 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Get Started
-                </a>
+                <div className="intro-actions">
+                  <a
+                    href="#contact"
+                    className="intro-action intro-action--contact page-scroll"
+                  >
+                    <i className="fa-solid fa-envelope"></i>
+                    Contactez-nous
+                  </a>
 
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                  style={{ marginLeft: "15px" }}
-                >
-                  View projects
-                </a>
+                  <a href="tel:0974569212" className="intro-action intro-action--phone">
+                    <i className="fa-solid fa-phone"></i>
+                    09 74 56 92 12
+                  </a>
+                </div>
               </div>
             </div>
           </div>

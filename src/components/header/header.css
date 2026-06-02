@@ -40,3 +40,63 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+
+.intro-actions {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.intro-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 56px;
+  padding: 0 22px;
+  border-radius: 999px;
+  font-family: var(--accent-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+  transition: all 0.3s ease;
+}
+
+.intro-action i {
+  font-size: 22px;
+}
+
+.intro-action--contact {
+  color: #111111;
+  background: #ff8a00;
+}
+
+.intro-action--phone {
+  color: #ffffff;
+  background: #3f4967;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.intro-action:hover,
+.intro-action:focus {
+  color: inherit;
+  transform: translateY(-2px);
+}
+
+.intro-action--phone:hover,
+.intro-action--phone:focus {
+  color: #ffffff;
+}
+
+@media (max-width: 575px) {
+  .intro-actions {
+    gap: 12px;
+  }
+
+  .intro-action {
+    width: 100%;
+    max-width: 260px;
+    justify-content: center;
+    font-size: 16px;
+  }
+}

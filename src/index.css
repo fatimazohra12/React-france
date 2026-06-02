@@ -1,3 +1,10 @@
 html { scroll-behavior: smooth; }
 
 body { margin: 0; }
+
+/* Hide the testimonials section without removing it from the project. */
+#testimonials,
+.our-testimonial,
+#menu li:has(> a[href="#testimonials"]) {
+  display: none;
+}

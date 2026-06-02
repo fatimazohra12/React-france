@@ -43,11 +43,11 @@ export function Projects() {
                 </div>
               </div>
             ))}
-            <div className="project-footer-btn wow fadeInUp" data-wow-delay="1.25s">
+            {/* <div className="project-footer-btn wow fadeInUp" data-wow-delay="1.25s">
               <a className="btn-default" href="#projects">
                 view all projects
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

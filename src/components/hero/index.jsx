@@ -21,7 +21,7 @@ export function Hero() {
                   Valorisez vos déchets
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay="0.25s">
-                Achat fer et métaux pose de penne
+                Achat fer et métaux pose de benne
                 </p>
               </div>
               <div className="hero-content-body wow fadeInUp" data-wow-delay="0.5s">

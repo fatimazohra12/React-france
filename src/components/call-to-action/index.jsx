@@ -10,12 +10,10 @@ export function CallToAction() {
           <div className="col-lg-7 col-md-8">
             <div className="section-title">
               <h2 className="text-anime-style-3" data-cursor="-opaque">
-                Let's bulid something great together!
+              Faites de vos métaux une opportunité durable !
               </h2>
               <p className="wow fadeInUp">
-                Don't wait any longer to bring your construction dreams to life.
-                Partner with Valmétaux and experience unparalleled service and
-                quality.
+              Ne laissez plus vos métaux inutilisés prendre la poussière. Valmetaux vous accompagne dans leur valorisation avec des solutions sur mesure, économiques et écoresponsables.
               </p>
             </div>
             <div className="section-btn wow fadeInUp" data-wow-delay="0.25s">

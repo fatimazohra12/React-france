@@ -97,7 +97,7 @@ export function Contact() {
                   </div>
                   <div className="col-md-12">
                     <button className="btn-default" type="submit">
-                      submit
+                    Envoyer
                     </button>
                     <div className="h3 hidden" id="msgSubmit" />
                   </div>

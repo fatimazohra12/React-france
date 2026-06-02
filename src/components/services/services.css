@@ -1,1 +1,9 @@
-/* Component-specific styles for services. */
+.service-image img {
+  aspect-ratio: 2.48 / 1;
+  object-fit: cover;
+  transform: none;
+}
+
+.service-item:hover .service-image img {
+  transform: none;
+}

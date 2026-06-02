@@ -11,14 +11,16 @@ export function Services() {
         <div className="container-fluid">
           <div className="row section-row">
             <div className="col-lg-12">
-              <SectionTitle eyebrow="Nos services" title="Nos prestations de construction">
-              Chez Valmetaux, nous proposons une gamme complète de services de construction pour répondre à tous vos besoins, des projets résidentiels aux infrastructures industrielles. Notre équipe d’experts s’engage à fournir des solutions sur mesure, durables et de haute qualité.
+              <SectionTitle eyebrow="Nos services" title="Nos prestations pour vos métaux">
+                Chez Valmétaux, nous vous accompagnons dans la récupération, le
+                recyclage et le rachat de métaux avec des solutions rapides,
+                fiables et adaptées à vos besoins.
               </SectionTitle>
             </div>
           </div>
           <div className="row">
             {services.map((service) => (
-              <div className="col-lg-3 col-md-6" key={service.title}>
+              <div className="col-lg-4 col-md-6" key={service.title}>
                 <div className="service-item wow fadeInUp" data-wow-delay={service.delay}>
                   <CardImage image={service.image} type="service" />
                   <div className="service-body">
@@ -26,9 +28,7 @@ export function Services() {
                       <h3>{service.title}</h3>
                     </div>
                     <div className="service-content">
-                      <p>
-                      "Transformer les déchets en opportunités, pour une planète plus propre et une économie plus forte."
-                      </p>
+                      <p>{service.description}</p>
                       {/* <div className="service-content-footer">
                         <a className="readmore-btn" href="#projects">
                           view more

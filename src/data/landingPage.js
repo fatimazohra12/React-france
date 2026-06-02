@@ -10,10 +10,24 @@ export const navItems = [
 ];
 
 export const services = [
-  { title: "building construction", image: "service-img-1.jpg", delay: "0.25s" },
-  { title: "architecture design", image: "service-img-2.jpg", delay: "0.5s" },
-  { title: "building renovation", image: "service-img-3.jpg", delay: "0.75s" },
-  { title: "building maintenance", image: "service-img-4.jpg", delay: "1s" },
+  {
+    title: "Récupération de métaux",
+    description: "Transformez vos déchets métalliques en opportunités !",
+    image: "service-recuperation-metaux.png",
+    delay: "0.25s",
+  },
+  {
+    title: "Recyclage de métaux",
+    description: "Recyclez vos métaux avec des experts engagés.",
+    image: "service-recyclage-metaux.png",
+    delay: "0.5s",
+  },
+  {
+    title: "Rachat de métaux",
+    description: "Valorisez vos ressources dès aujourd'hui !",
+    image: "service-rachat-metaux.png",
+    delay: "0.75s",
+  },
 ];
 
 export const reasons = [
@@ -95,9 +109,7 @@ export const posts = [
 ];
 
 export const footerServices = [
-  "building construction",
-  "architecture design",
-  "building renovation",
-  "flooring & roofing",
-  "building maintenance",
+  "Récupération de métaux",
+  "Recyclage de métaux",
+  "Rachat de métaux",
 ];

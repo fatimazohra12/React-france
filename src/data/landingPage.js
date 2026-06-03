@@ -5,7 +5,7 @@ export const navItems = [
   { label: "Prestations", href: "#projects" },
   { label: "Témoignages", href: "#testimonials" },
   { label: "FAQ", href: "#faqs" },
-  { label: "Blog", href: "#blog" },
+  { label: "Engagements", href: "#engagements" },
   { label: "Contact", href: "#contact", highlighted: true },
 ];
 
@@ -32,17 +32,35 @@ export const services = [
 
 export const reasons = [
   {
-    title: "innovation solutions",
+    title: "Expertise et Expérience",
+    subtitle: "Des professionnels aguerris à votre service",
+    points: [
+      "Plus de 15 ans d’expérience dans l’achat, la vente et le recyclage des métaux.",
+      "Une équipe formée aux normes environnementales et aux procédés industriels les plus stricts.",
+      "Conseil personnalisé pour maximiser la valeur de vos métaux.",
+    ],
     icon: "icon-why-choose-1.svg",
     image: "why-choose-img-1.jpg",
   },
   {
-    title: "quality craftsmanship",
+    title: "Solutions Innovantes",
+    subtitle: "Des méthodes de pointe pour un recyclage optimal",
+    points: [
+      "Tri automatisé et analyse de composition pour une valorisation précise.",
+      "Partenariats technologiques avec des centres de recyclage certifiés.",
+      "Solutions sur mesure pour les professionnels (chantiers, industries, démolitions).",
+    ],
     icon: "icon-why-choose-2.svg",
     image: "why-choose-img-2.jpg",
   },
   {
-    title: "expertise and experience",
+    title: "Qualité et Professionnalisme",
+    subtitle: "Un service irréprochable, de la collecte à la livraison",
+    points: [
+      "Devis transparent sans frais cachés.",
+      "Collecte rapide et logistique optimisée (camions dédiés, horaires flexibles).",
+      "Paiement sécurisé et traçabilité totale de vos métaux.",
+    ],
     icon: "icon-why-choose-3.svg",
     image: "why-choose-img-3.jpg",
   },
@@ -66,46 +84,57 @@ export const testimonials = [
 
 export const faqs = [
   {
-    question: "Do you offer a free, no obligation quotation?",
+    question: "Proposez-vous un devis gratuit et sans engagement ?",
+    answer:
+      "Oui. Nous proposons un devis gratuit et détaillé selon la quantité, le type de métal et vos besoins de collecte.",
     collapseId: "collapseOne",
     headingId: "headingOne",
     isOpen: true,
     delay: "0.25s",
   },
   {
-    question: "What services do you offer?",
+    question: "Quels services proposez-vous ?",
+    answer:
+      "Nous assurons l’achat, la collecte, le tri et le recyclage des métaux ferreux et non ferreux.",
     collapseId: "collapseTwo",
     headingId: "headingTwo",
     delay: "0.5s",
   },
   {
-    question: "What types of projects do you specialize in?",
+    question: "Quels types de métaux acceptez-vous ?",
+    answer:
+      "Nous acceptons notamment la ferraille, le cuivre, l’aluminium, le laiton, les câbles et les batteries.",
     collapseId: "collapseThree",
     headingId: "headingThree",
     delay: "0.75s",
   },
   {
-    question: "How do I start a project with your company?",
+    question: "Comment démarrer avec Valmétaux ?",
+    answer:
+      "Contactez-nous par téléphone, email ou formulaire. Nous évaluons votre besoin, planifions la collecte et vous accompagnons jusqu’au paiement.",
     collapseId: "collapsefour",
     headingId: "headingfour",
     delay: "1s",
   },
 ];
 
-export const posts = [
+export const engagements = [
   {
-    title: "10 Essential Tips for Choosing the Right Builder",
-    image: "post-1.jpg",
+    title: "Recyclage responsable",
+    description:
+      "Nous valorisons les métaux dans une démarche respectueuse de l’environnement et des normes en vigueur.",
     delay: "0.25s",
   },
   {
-    title: "The Future of Sustainable Construction Innovations",
-    image: "post-2.jpg",
+    title: "Devis transparent",
+    description:
+      "Chaque estimation est claire, détaillée et sans frais cachés pour vous permettre de décider en toute confiance.",
     delay: "0.5s",
   },
   {
-    title: "How to Design Your Dream Home: A Step-by-Step Guide",
-    image: "post-3.jpg",
+    title: "Collecte et paiement rapides",
+    description:
+      "Nous organisons une collecte efficace et assurons un paiement sécurisé après valorisation de vos métaux.",
     delay: "0.75s",
   },
 ];

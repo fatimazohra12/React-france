@@ -10,8 +10,9 @@ export function Faqs() {
       <div className="container">
         <div className="row section-row">
           <div className="col-lg-12">
-            <SectionTitle eyebrow="faqs" title="Got questions? we've got answers">
-            Chez Valmetaux, nous proposons une gamme complète de services de construction pour répondre à tous vos besoins, des projets résidentiels aux infrastructures industrielles. Notre équipe d’experts s’engage à fournir des solutions sur mesure, durables et de haute qualité.
+            <SectionTitle eyebrow="FAQ chez Valmétaux" title="Foire aux questions">
+              Retrouvez les réponses simples aux questions les plus fréquentes
+              sur nos services de valorisation des métaux.
             </SectionTitle>
           </div>
         </div>
@@ -19,7 +20,7 @@ export function Faqs() {
           <div className="col-lg-5">
             <div className="our-faqs-images">
               <div className="row align-items-end">
-                {["our-faqs-img-1.jpg", "our-faqs-img-2.jpg"].map((image, index) => (
+                {["service-recuperation-metaux.png", "service-recyclage-metaux.png"].map((image, index) => (
                   <div className="col-md-6 col-6" key={image}>
                     <div className={`faqs-img-${index + 1}`}>
                       <figure className="image-anime reveal">
@@ -30,7 +31,7 @@ export function Faqs() {
                 ))}
               </div>
               <div className="row align-items-start">
-                {["our-faqs-img-3.jpg", "our-faqs-img-4.jpg"].map((image, index) => (
+                {["prestation-cuivre.png", "prestation-batteries.png"].map((image, index) => (
                   <div className="col-md-6 col-6" key={image}>
                     <div className={`faqs-img-${index + 1}`}>
                       <figure className="image-anime reveal">
@@ -72,9 +73,7 @@ export function Faqs() {
                     id={faq.collapseId}
                   >
                     <div className="accordion-body">
-                      <p>
-                      "Transformer les déchets en opportunités, pour une planète plus propre et une économie plus forte."
-                      </p>
+                      <p>{faq.answer}</p>
                     </div>
                   </div>
                 </div>

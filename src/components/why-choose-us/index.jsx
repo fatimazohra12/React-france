@@ -10,10 +10,8 @@ export function WhyChooseUs() {
       <div className="container">
         <div className="row section-row">
           <div className="col-lg-12">
-            <SectionTitle eyebrow="why choose us?" title="Why we're your best choice">
-              Developed in close collaboration with our partners and clients,
-              combines industry knowledge, decades of experience, ingenuity and
-              adaptability to deliver excellence to our clients.
+            <SectionTitle eyebrow="Pourquoi nous choisir ?" title="Pourquoi Valmetaux est votre meilleur choix ?">
+            Développé en étroite collaboration avec nos partenaires et clients, notre approche combine expertise sectorielle, décennies d’expérience et adaptabilité pour offrir des solutions optimales à vos besoins en métaux.
             </SectionTitle>
           </div>
         </div>
@@ -27,17 +25,12 @@ export function WhyChooseUs() {
                   </div>
                   <div className="why-choose-content">
                     <h3>{reason.title}</h3>
-                    <p>
-                      Simple actions make a difference. It starts and ends with
-                      each employee striving to work safer every single day so
-                      they can return.
-                    </p>
-                  </div>
-                  <div className="why-choose-counter">
-                    <h3>
-                      <span className="counter">800</span>+
-                    </h3>
-                    <p>project complated</p>
+                    <p className="why-choose-subtitle">{reason.subtitle}</p>
+                    <ul>
+                      {reason.points.map((point) => (
+                        <li key={point}>{point}</li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               </div>

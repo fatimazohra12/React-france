@@ -1,43 +1,26 @@
 import React from "react";
-import { posts } from "../../data/landingPage";
+import { engagements } from "../../data/landingPage";
 import { SectionTitle } from "../section-title";
-import { asset } from "../../utils/assets";
 import "./blog.css";
 
 export function Blog() {
   return (
-    <section className="our-blog" id="blog">
+    <section className="our-blog" id="engagements">
       <div className="container">
         <div className="row section-row">
           <div className="col-lg-12">
-            <SectionTitle eyebrow="news & blog" title="Articles & blog posts">
-            Chez Valmetaux, nous proposons une gamme complète de services de construction pour répondre à tous vos besoins, des projets résidentiels aux infrastructures industrielles. Notre équipe d’experts s’engage à fournir des solutions sur mesure, durables et de haute qualité.
+            <SectionTitle eyebrow="Nos engagements" title="Un service clair, rapide et responsable">
+              Chez Valmétaux, nous nous engageons à vous proposer une
+              valorisation simple, transparente et adaptée à vos métaux.
             </SectionTitle>
           </div>
         </div>
         <div className="row">
-          {posts.map((post) => (
-            <div className="col-lg-4 col-md-6" key={post.title}>
-              <article className="blog-item wow fadeInUp" data-wow-delay={post.delay}>
-                <div className="post-featured-image" data-cursor-text="View">
-                  <figure>
-                    <a className="image-anime" href="#home">
-                      <img src={asset(post.image)} alt="" />
-                    </a>
-                  </figure>
-                </div>
-                <div className="post-item-content">
-                  <div className="post-item-body">
-                    <h2>
-                      <a href="#home">{post.title}</a>
-                    </h2>
-                  </div>
-                  <div className="post-item-footer">
-                    <a className="readmore-btn" href="#blog">
-                      read more
-                    </a>
-                  </div>
-                </div>
+          {engagements.map((engagement) => (
+            <div className="col-lg-4 col-md-6" key={engagement.title}>
+              <article className="engagement-item wow fadeInUp" data-wow-delay={engagement.delay}>
+                <h3>{engagement.title}</h3>
+                <p>{engagement.description}</p>
               </article>
             </div>
           ))}

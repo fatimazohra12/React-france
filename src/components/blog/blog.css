@@ -1,1 +1,18 @@
-/* Component-specific styles for blog. */
+.engagement-item {
+  border: 1px solid var(--divider-color);
+  border-radius: 30px;
+  height: calc(100% - 30px);
+  margin-bottom: 30px;
+  padding: 32px;
+  background: var(--white-color);
+}
+
+.engagement-item h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.engagement-item p {
+  margin: 0;
+}

@@ -28,9 +28,7 @@ export function Projects() {
                       <h3>{project.title}</h3>
                     </div>
                     <div className="project-content">
-                      {/* <p>
-                      "Transformer les déchets en opportunités, pour une planète plus propre et une économie plus forte."
-                      </p> */}
+                      <p>{project.description}</p>
                       {/* <div className="project-content-footer">
                         <a className="readmore-btn" href="#projects">
                           view more

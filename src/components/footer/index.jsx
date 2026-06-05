@@ -18,7 +18,7 @@ export function Footer() {
               </div>
               <div className="footer-content">
                 <p>
-                "Transformer les déchets en opportunités, pour une planète plus propre et une économie plus forte."
+                Transformer les déchets en opportunités, pour une planète plus propre et une économie plus forte.
                 </p>
               </div>
             </div>
@@ -37,7 +37,7 @@ export function Footer() {
           </div>
           <div className="col-lg-3 col-md-4 col-12">
             <div className="footer-links">
-              <h3>company</h3>
+              <h3>Notre entrprise</h3>
               <ul>
                 {navItems.slice(1).map((item) => (
                   <li key={item.href}>

@@ -67,12 +67,42 @@ export const reasons = [
 ];
 
 export const projects = [
-  { title: "Câbles électriques", image: "prestation-cables-electriques.png", delay: "0.25s" },
-  { title: "Câbles industriels", image: "prestation-cables-industriels.png", delay: "0.5s" },
-  { title: "Batteries usagées", image: "prestation-batteries.png", delay: "0.75s" },
-  { title: "Fils et câbles mélangés", image: "prestation-fils-melanges.png", delay: "1s" },
-  { title: "Cuivre", image: "prestation-cuivre.png", delay: "1.25s" },
-  { title: "Câbles colorés", image: "prestation-cables-colores.png", delay: "1.5s" },
+  {
+    title: "Câbles électriques",
+    description: "Collecte et valorisation de câbles électriques usagés.",
+    image: "prestation-cables-electriques.png",
+    delay: "0.25s",
+  },
+  {
+    title: "Câbles industriels",
+    description: "Rachat de câbles industriels issus des chantiers et ateliers.",
+    image: "prestation-cables-industriels.png",
+    delay: "0.5s",
+  },
+  {
+    title: "Batteries usagées",
+    description: "Prise en charge des batteries pour un traitement adapté.",
+    image: "prestation-batteries.png",
+    delay: "0.75s",
+  },
+  {
+    title: "Fils et câbles mélangés",
+    description: "Tri et recyclage de fils électriques de différentes catégories.",
+    image: "prestation-fils-melanges.png",
+    delay: "1s",
+  },
+  {
+    title: "Cuivre",
+    description: "Valorisation du cuivre pour un meilleur prix de reprise.",
+    image: "prestation-cuivre.png",
+    delay: "1.25s",
+  },
+  {
+    title: "Câbles colorés",
+    description: "Collecte de câbles souples et multicolores à recycler.",
+    image: "prestation-cables-colores.png",
+    delay: "1.5s",
+  },
 ];
 
 export const testimonials = [

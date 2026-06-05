@@ -1129,10 +1129,25 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-projects{
-	background: var(--secondary-color) url("../images/our-projects-bg.png") no-repeat;
-    background-position: left bottom;
-    background-size: auto;
+	position: relative;
+	overflow: hidden;
+	background: var(--secondary-color);
 	padding: 100px 0;
+}
+
+.our-projects::before{
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: url("../images/our-projects-bg.png") no-repeat left bottom;
+	background-size: auto;
+	opacity: 0.3;
+	pointer-events: none;
+}
+
+.our-projects .light-bg-section{
+	position: relative;
+	z-index: 1;
 }
 
 .project-item{
@@ -3509,8 +3524,11 @@ header.main-header .header-sticky.active{
 	}
 
 	.our-projects{
-		background-size: 50% auto;
 		padding: 50px 0;
+	}
+
+	.our-projects::before{
+		background-size: 50% auto;
 	}
 
 	.project-body{

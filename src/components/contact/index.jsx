@@ -15,7 +15,7 @@ export function Contact() {
                   <img src={asset("icon-phone.svg")} alt="" />
                 </div>
                 <div className="contact-info-content">
-                  <p>Centre de support client 24/7</p>
+                  <p>Appeler Valmétaux dés maintenant</p>
                   <h3>+33 1 41 40 01 01</h3>
                 </div>
               </div>

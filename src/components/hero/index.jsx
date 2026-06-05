@@ -15,7 +15,7 @@ export function Hero() {
           <div className="col-lg-12">
             <div className="hero-content">
               <div className="section-title">
-                <h3 className="wow fadeInUp">welcome to Valmétaux</h3>
+                <img className="hero-logo wow fadeInUp" src={asset("valmetaux-logo.png")} alt="Valmétaux" />
                 <h1 className="text-anime-style-3" data-cursor="-opaque">
                   Achat vente des métaux 
                   Valorisez vos déchets
@@ -26,10 +26,10 @@ export function Hero() {
               </div>
               <div className="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
                 <a className="btn-default" href="#about">
-                Démarrer
+                En savoir plus
                 </a>
                 <a className="btn-default btn-highlighted" href="#projects">
-                voir les projets
+                Nos prestations
                 </a>
               </div>
             </div>

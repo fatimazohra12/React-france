@@ -7,3 +7,21 @@
 .service-item:hover .service-image img {
   transform: none;
 }
+
+.service-body {
+  bottom: 20px;
+  transform: none;
+}
+
+.service-item:hover .service-body {
+  bottom: 20px;
+  transform: none;
+}
+
+.service-content {
+  opacity: 1;
+}
+
+.service-item:hover .service-content {
+  opacity: 1;
+}

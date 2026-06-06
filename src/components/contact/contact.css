@@ -1,1 +1,23 @@
-/* Component-specific styles for contact. */
+.contact-us .row.align-items-center {
+  align-items: stretch;
+}
+
+.contact-us .col-lg-4,
+.contact-us .col-lg-8 {
+  display: flex;
+}
+
+.contact-sidebar,
+.contact-form {
+  width: 100%;
+}
+
+.contact-sidebar {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info-image {
+  margin-bottom: 32px;
+}

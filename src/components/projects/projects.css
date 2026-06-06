@@ -10,9 +10,9 @@
 
 .project-body {
   right: 40px;
-  bottom: 10px;
+  bottom: 20px;
   left: 40px;
-  transform: translateY(70%);
+  transform: none;
   transition: all 0.5s ease-in-out;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .project-content {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.4s ease-in-out;
 }
 

@@ -1155,7 +1155,7 @@ header.main-header .header-sticky.active{
 	position: absolute;
 	inset: 0;
 	background: url("../images/our-projects-bg.png") no-repeat left bottom;
-	background-size: auto;
+	background-size: 100% auto;
 	opacity: 0.3;
 	pointer-events: none;
 }
@@ -3543,10 +3543,6 @@ header.main-header .header-sticky.active{
 
 	.our-projects{
 		padding: 50px 0;
-	}
-
-	.our-projects::before{
-		background-size: 50% auto;
 	}
 
 	.project-body{

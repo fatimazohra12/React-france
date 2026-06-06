@@ -1,19 +1,18 @@
-.contact-us .row.align-items-center {
+.contact-us .row.align-items-stretch {
   align-items: stretch;
 }
 
-.contact-us .col-lg-4,
-.contact-us .col-lg-8 {
+.contact-us .row.align-items-stretch > [class*="col-"] {
   display: flex;
 }
 
 .contact-sidebar,
 .contact-form {
+  height: 100%;
   width: 100%;
 }
 
 .contact-sidebar {
-  min-height: 100%;
   display: flex;
   flex-direction: column;
 }

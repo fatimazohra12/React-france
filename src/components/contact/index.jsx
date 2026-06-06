@@ -7,7 +7,7 @@ export function Contact() {
   return (
     <section className="contact-us" id="contact">
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-stretch">
           <div className="col-lg-4 col-md-5">
             <div className="contact-sidebar wow fadeInUp" data-wow-delay="0.25s">
               <div className="contact-info">

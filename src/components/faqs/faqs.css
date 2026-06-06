@@ -1,1 +1,22 @@
-/* Component-specific styles for faqs. */
+.our-faqs-images {
+  position: relative;
+}
+
+.our-faqs-images figure {
+  margin: 0;
+}
+
+.our-faqs-images img {
+  aspect-ratio: 1 / 0.72;
+  object-fit: cover;
+  width: 100%;
+}
+
+.our-faqs-bulitup {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}

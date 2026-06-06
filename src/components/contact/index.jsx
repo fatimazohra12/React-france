@@ -30,7 +30,7 @@ export function Contact() {
               </div>
               <div className="contact-info-image">
                 <figure>
-                  <img src={asset("contact-info-img.png")} alt="" />
+                  <img src={asset("valmetaux-logo.png")} alt="" />
                 </figure>
               </div>
             </div>

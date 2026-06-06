@@ -4,7 +4,7 @@ import "./card-image.css";
 
 export function CardImage({ image, type }) {
   return (
-    <div className={`${type}-image`} data-cursor-text="View">
+    <div className={`${type}-image`}>
       <a href="#home">
         <figure>
           <img src={asset(image)} alt="" />

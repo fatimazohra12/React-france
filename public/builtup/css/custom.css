@@ -926,10 +926,25 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-service{
-	background: var(--secondary-color) url("../images/our-service-bg.png") no-repeat;
-    background-position: right top;
-    background-size: auto;
+	position: relative;
+	overflow: hidden;
+	background: var(--secondary-color);
 	padding: 100px 0 70px;
+}
+
+.our-service::before{
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: url("../images/our-service-bg.png") no-repeat right top;
+	background-size: auto;
+	opacity: 0.3;
+	pointer-events: none;
+}
+
+.our-service .light-bg-section{
+	position: relative;
+	z-index: 1;
 }
 
 .service-item{
@@ -3475,8 +3490,11 @@ header.main-header .header-sticky.active{
 	}
 
 	.our-service{
-		background-size: 50% auto;
 		padding: 50px 0;
+	}
+
+	.our-service::before{
+		background-size: 50% auto;
 	}
 
 	.service-body{

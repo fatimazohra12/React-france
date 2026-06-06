@@ -40,7 +40,7 @@ export const reasons = [
       "Conseil personnalisé pour maximiser la valeur de vos métaux.",
     ],
     icon: "icon-why-choose-1.svg",
-    image: "why-choose-img-1.jpg",
+    image: "why-choose-img-1.jpeg",
   },
   {
     title: "Solutions Innovantes",
@@ -51,7 +51,7 @@ export const reasons = [
       "Solutions sur mesure pour les professionnels (chantiers, industries, démolitions).",
     ],
     icon: "icon-why-choose-2.svg",
-    image: "why-choose-img-2.jpg",
+    image: "why-choose-img-2.jpeg",
   },
   {
     title: "Qualité et Professionnalisme",
@@ -62,7 +62,7 @@ export const reasons = [
       "Paiement sécurisé et traçabilité totale de vos métaux.",
     ],
     icon: "icon-why-choose-3.svg",
-    image: "why-choose-img-3.jpg",
+    image: "why-choose-img-3.jpeg",
   },
 ];
 

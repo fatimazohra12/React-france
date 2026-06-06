@@ -15,6 +15,7 @@
 .contact-sidebar {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .contact-info-image {

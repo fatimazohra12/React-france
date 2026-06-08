@@ -1,10 +1,12 @@
 .navbar-logo {
-  max-height: 64px;
+  max-height: 90px;
+  transform: translateY(8px);
   width: auto;
 }
 
 @media (max-width: 991px) {
   .navbar-logo {
-    max-height: 52px;
+    max-height: 68px;
+    transform: translateY(5px);
   }
 }

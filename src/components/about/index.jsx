@@ -46,7 +46,16 @@ export function About() {
                     <p>
                 Appeler Valmétaux dés maintenant
                     </p>
-                    <h3>+33 1 41 40 01 01</h3>
+                    <div className="about-phone-list">
+                      <h3>
+                        <span aria-label="France" role="img">🇫🇷</span>
+                        +33 1 41 40 01 01
+                      </h3>
+                      <h3>
+                        <span aria-label="Maroc" role="img">🇲🇦</span>
+                        +212 6 07561496
+                      </h3>
+                    </div>
                   </div>
                 </div>
               </div>

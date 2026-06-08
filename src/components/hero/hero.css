@@ -5,6 +5,20 @@
   margin: 0 auto 24px;
 }
 
+.hero-address {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.hero-address img {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) invert(1);
+}
+
 @media (max-width: 575px) {
   .hero-logo {
     width: min(170px, 70vw);

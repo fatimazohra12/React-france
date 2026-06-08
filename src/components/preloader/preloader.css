@@ -1,1 +1,5 @@
-/* Component-specific styles for preloader. */
+.preloader-logo {
+  width: 82px;
+  max-width: 82px;
+  height: auto;
+}

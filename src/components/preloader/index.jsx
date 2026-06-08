@@ -8,7 +8,7 @@ export function Preloader() {
       <div className="loading-container">
         <div className="loading" />
         <div id="loading-icon">
-          <img src={asset("loader.svg")} alt="" />
+          <img className="preloader-logo" src={asset("valmetaux-logo.png")} alt="Valmétaux" />
         </div>
       </div>
     </div>

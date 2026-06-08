@@ -20,3 +20,11 @@
   transform: translate(-50%, -50%);
   z-index: 2;
 }
+
+.our-faqs-bulitup .faq-center-logo {
+  width: 82px;
+  max-width: 82px;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+}

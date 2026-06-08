@@ -42,7 +42,7 @@ export function Faqs() {
                 ))}
               </div>
               <div className="our-faqs-bulitup">
-                <img src={asset("icon-faq-bulitup.svg")} alt="" />
+                <img className="faq-center-logo" src={asset("valmetaux-logo.png")} alt="Valmétaux" />
               </div>
             </div>
           </div>

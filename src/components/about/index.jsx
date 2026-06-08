@@ -52,8 +52,8 @@ export function About() {
                         +33 1 41 40 01 01
                       </h3>
                       <h3>
-                        <span aria-label="Maroc" role="img">🇲🇦</span>
-                        +212 6 07561496
+                        <span aria-label="France" role="img">🇫🇷</span>
+                        +33 6 07 56 14 96
                       </h3>
                     </div>
                   </div>
